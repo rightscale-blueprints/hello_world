@@ -1,0 +1,11 @@
+GIT
+  remote: https://github.com/flaccid/cookbooks
+  path: cookbooks/hello_world
+  ref: master
+  sha: 7d0d28c456b83806f496d9977818a8cb06d6c2ab
+  specs:
+    hello_world (0.0.1)
+
+DEPENDENCIES
+  hello_world (>= 0)
+
