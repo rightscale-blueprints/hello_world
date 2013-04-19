@@ -1,0 +1,44 @@
+{
+  "name": "hello_world",
+  "description": "Simple Hello World! demonstration cookbook.",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "maintainer": "Chris Fordham",
+  "maintainer_email": "chris@xhost.com.au",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "hello_world/text": {
+      "display_name": "Hello world text",
+      "description": "The text to use for the 'hello, world' program.",
+      "required": "optional",
+      "default": "Hello, world!",
+      "recipes": [
+        "hello_world::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
+    }
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "hello_world::default": "Prints Hello World! to Chef log."
+  },
+  "version": "0.0.1"
+}
